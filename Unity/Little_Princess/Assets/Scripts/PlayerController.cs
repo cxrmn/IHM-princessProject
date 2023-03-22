@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public static PlayerController instance;
 
     public float moveSpeed;
     public float jumpForce;
@@ -18,13 +19,18 @@ public class PlayerController : MonoBehaviour
 
     public float gravityScale = 5f;
 
-    public Camera playerCamera; //1º camera
+    public Camera playerCamera; //1ï¿½ camera
 
     public float rotateSpeed = 5f;
 
     public GameObject playerModel;
 
     public Animator animator;
+
+    public void Awake()
+    {
+        instance = this;
+    }
 
 
 
@@ -51,7 +57,7 @@ public class PlayerController : MonoBehaviour
 
 
         // salto
-        Debug.Log("hola: " + charController.isGrounded);
+       // Debug.Log("hola: " + charController.isGrounded);
         
         if (charController.isGrounded )
         {
