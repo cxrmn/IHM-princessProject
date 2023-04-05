@@ -1,0 +1,550 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'es' Physical Memory: 8035 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/Unity/Little_Princess
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62614
+Successfully changed project path to: C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/Unity/Little_Princess
+C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/Unity/Little_Princess
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14556] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2810580846 [EditorId] 2810580846 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9HCS5K4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [14556] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2810580846 [EditorId] 2810580846 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9HCS5K4) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 147.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/Unity/Little_Princess/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
+    Vendor:   Intel
+    VRAM:     4017 MB
+    Driver:   27.20.100.8854
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56232
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.046570 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 203.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.852 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1853ms)
+		BeginReloadAssembly (439ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1000ms)
+			LoadAssemblies (432ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (317ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (506ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (204ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011082 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\carme\OneDrive\Documentos\GitHub\IHM-princessPoject\Unity\Little_Princess\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\carme\OneDrive\Documentos\GitHub\IHM-princessPoject\Unity\Little_Princess\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.895 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1896ms)
+		BeginReloadAssembly (193ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1476ms)
+			LoadAssemblies (296ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (432ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (621ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (173ms)
+				ProcessInitializeOnLoadAttributes (391ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3449 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (1.4 MB). Loaded Objects now: 3915.
+Memory consumption went from 219.9 MB to 218.5 MB.
+Total: 4.421100 ms (FindLiveObjects: 0.412500 ms CreateObjectMapping: 0.367800 ms MarkObjects: 3.271700 ms  DeleteObjects: 0.367500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10825.614669 seconds.
+  path: Assets/Imports/Door Double
+  artifactKey: Guid(95ca78146b53432408019d80c6ab0a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Door Double using Guid(95ca78146b53432408019d80c6ab0a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1813a86c6bf6765d276e5ffe9a9ac2d3') in 0.018401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Imports/Door Double/Door_Double.fbx
+  artifactKey: Guid(7a14cc972eda4fe49b5dab51cd6b6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Door Double/Door_Double.fbx using Guid(7a14cc972eda4fe49b5dab51cd6b6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b798826db71734cf96136adb7a6eb845') in 0.408249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.792763 seconds.
+  path: Assets/Imports/kenney_fantasy-town-kit/Models/DAE format/wallWoodBlock.dae
+  artifactKey: Guid(a2a445b977afb5345aae15892ee44616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/kenney_fantasy-town-kit/Models/DAE format/wallWoodBlock.dae using Guid(a2a445b977afb5345aae15892ee44616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835f4881add17aa7f8b9eec8c3e4e999') in 0.143871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Imports/kenney_fantasy-town-kit/Models/DAE format/wallBlock.dae
+  artifactKey: Guid(c034dcf1ac482b74bb5dbbcf80882a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/kenney_fantasy-town-kit/Models/DAE format/wallBlock.dae using Guid(c034dcf1ac482b74bb5dbbcf80882a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79c8c5fd9aab5ad3b8ffe5eaf010840c') in 0.094875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Imports/kenney_fantasy-town-kit/Models/FBX format/watermillWide.fbx
+  artifactKey: Guid(96a9dbcb3ac22c349a4882d469a1498f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/kenney_fantasy-town-kit/Models/FBX format/watermillWide.fbx using Guid(96a9dbcb3ac22c349a4882d469a1498f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bfdeb3ff8ac49f2caf64fa755705d4d') in 0.161534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Imports/kenney_fantasy-town-kit/Models/FBX format/watermill.fbx
+  artifactKey: Guid(4e4b5ffc57b4d1c41be58b24825efc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/kenney_fantasy-town-kit/Models/FBX format/watermill.fbx using Guid(4e4b5ffc57b4d1c41be58b24825efc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef9975a2529f6fac37d84bc6f27560c') in 0.167192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Imports/kenney_fantasy-town-kit/Models/DAE format/wallBlockHalf.dae
+  artifactKey: Guid(22460ea920326044e92e8fa8097087f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/kenney_fantasy-town-kit/Models/DAE format/wallBlockHalf.dae using Guid(22460ea920326044e92e8fa8097087f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e29cdd4de3c630bc028f5cd48136bde') in 0.107896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Imports/kenney_fantasy-town-kit/Models/DAE format/stairsWoodHandrail.dae
+  artifactKey: Guid(54359458bb6601c479db76c75b2b74ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/kenney_fantasy-town-kit/Models/DAE format/stairsWoodHandrail.dae using Guid(54359458bb6601c479db76c75b2b74ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb7d5677f3c93d9c3aa14a256b5e8c5') in 0.104094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Imports/kenney_fantasy-town-kit/Models/DAE format/wallDoorwayBase.dae
+  artifactKey: Guid(8ecba26140b64ae4782a903a76e8158d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/kenney_fantasy-town-kit/Models/DAE format/wallDoorwayBase.dae using Guid(8ecba26140b64ae4782a903a76e8158d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01097cde907170313c3061658f7a5c23') in 0.084682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Imports/kenney_fantasy-town-kit/Models/FBX format/fenceBroken.fbx
+  artifactKey: Guid(61532b56820d23b41b1151159f16b88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/kenney_fantasy-town-kit/Models/FBX format/fenceBroken.fbx using Guid(61532b56820d23b41b1151159f16b88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df916e5adb5684fab7bbae118f8cfa59') in 0.081132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.523262 seconds.
+  path: Assets/Imports/3D Platformer/Models/Environment/Kenney/Raw/cube.fbx
+  artifactKey: Guid(8c903777ca35f1646a0014e184550e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/3D Platformer/Models/Environment/Kenney/Raw/cube.fbx using Guid(8c903777ca35f1646a0014e184550e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ccc1708e5d7a57cedea90a16ab813d') in 0.066319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Imports/3D Platformer/Models/Environment/Kenney/Raw/jewel.fbx
+  artifactKey: Guid(ecf577eab8b394043b3bd2cc4214a1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/3D Platformer/Models/Environment/Kenney/Raw/jewel.fbx using Guid(ecf577eab8b394043b3bd2cc4214a1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1a2669c0a71e1498e7e58d6fef8632') in 0.093238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Imports/3D Platformer/Models/Environment/Kenney/Raw/key.fbx
+  artifactKey: Guid(0c97d8c394a67e64fb5a42027a3d6f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/3D Platformer/Models/Environment/Kenney/Raw/key.fbx using Guid(0c97d8c394a67e64fb5a42027a3d6f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5eea97c992810b2839f25e9bbc4c7bc') in 0.105534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Imports/3D Platformer/Models/Environment/Kenney/Raw/flowers.fbx
+  artifactKey: Guid(d1d310c7c66aa7547ae9ceb5e032b786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/3D Platformer/Models/Environment/Kenney/Raw/flowers.fbx using Guid(d1d310c7c66aa7547ae9ceb5e032b786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0378133ccc82d53c57ef0073eeadb376') in 0.099408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Imports/3D Platformer/Models/Environment/Kenney/Raw/gold.mat
+  artifactKey: Guid(13bfde9598e8dd448a87ff83743dd044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/3D Platformer/Models/Environment/Kenney/Raw/gold.mat using Guid(13bfde9598e8dd448a87ff83743dd044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61457584c92d26ee87b4401e5aa9b146') in 0.081694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.051524 seconds.
+  path: Assets/Imports/Door Double/Door_Double.fbx
+  artifactKey: Guid(7a14cc972eda4fe49b5dab51cd6b6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Door Double/Door_Double.fbx using Guid(7a14cc972eda4fe49b5dab51cd6b6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8006bf6d003d96fd634ba6dbbf8876f') in 0.095258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 87.258472 seconds.
+  path: Assets/Imports/modular_village_collection/Modular Village/Dirt_Fading_from_Gathered.obj
+  artifactKey: Guid(ac6d5c5f658c9394a88e51f077d86b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/modular_village_collection/Modular Village/Dirt_Fading_from_Gathered.obj using Guid(ac6d5c5f658c9394a88e51f077d86b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a07f4b1fff6770022c936fd39bc371f2') in 0.075611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Imports/fruitsandvegetables/obj/garlic02.obj
+  artifactKey: Guid(db7f5a1cf4b2d054f8dfc026462c02fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/fruitsandvegetables/obj/garlic02.obj using Guid(db7f5a1cf4b2d054f8dfc026462c02fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5d74464d5efd184eb45fa55ce6e47a') in 0.094292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Imports/kenney_fantasy-town-kit/Models/DAE format/fenceGate.dae
+  artifactKey: Guid(aa48bef9a799a0846a68f5099ead4b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/kenney_fantasy-town-kit/Models/DAE format/fenceGate.dae using Guid(aa48bef9a799a0846a68f5099ead4b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93822ec20958a24e497fe6bf1a0aff71') in 0.110046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Imports/fruitsandvegetables/obj/garlic01.obj
+  artifactKey: Guid(cd33ea69b8e91bc458b675020bdb1592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/fruitsandvegetables/obj/garlic01.obj using Guid(cd33ea69b8e91bc458b675020bdb1592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac505fa12423c66cda682bed25ca6fb9') in 0.127030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Imports/kenney_fantasy-town-kit/Models/FBX format/fenceGate.fbx
+  artifactKey: Guid(eb95efd666bbfcb4caf8597de4351ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/kenney_fantasy-town-kit/Models/FBX format/fenceGate.fbx using Guid(eb95efd666bbfcb4caf8597de4351ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2a03222c3bca7029ecbce3a3654cf0') in 0.141600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Imports/fruitsandvegetables/fbx/garlic01.fbx
+  artifactKey: Guid(4ba241f74af1ded4eac4d95d921cdf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/fruitsandvegetables/fbx/garlic01.fbx using Guid(4ba241f74af1ded4eac4d95d921cdf97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7b4c6cea3c30112b221c3cbbfd4e8d') in 0.088072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Imports/modular_village_collection/Modular Village/Dirt_Gathered_Straight.obj
+  artifactKey: Guid(6290d7aaac181ef46ace97250310871e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/modular_village_collection/Modular Village/Dirt_Gathered_Straight.obj using Guid(6290d7aaac181ef46ace97250310871e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5442aafe4da5135566030ed2883a11c5') in 0.097940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Imports/fruitsandvegetables/fbx/garlic02.fbx
+  artifactKey: Guid(cb790f7c040f396488a4599460d3e05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/fruitsandvegetables/fbx/garlic02.fbx using Guid(cb790f7c040f396488a4599460d3e05b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e001162096b0a3ba17c44bf775df428') in 0.085606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Imports/kenney_fantasy-town-kit/Previews/fenceGate.png
+  artifactKey: Guid(222976d319c948d4082e427f9018d8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/kenney_fantasy-town-kit/Previews/fenceGate.png using Guid(222976d319c948d4082e427f9018d8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab42b3f7882ba9c1e859a9d405466e0f') in 0.121179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Imports/modular_village_collection/Modular Village/Dirt_Gathered_Corner.obj
+  artifactKey: Guid(25eb3d9798d048b46befe387c48fe1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/modular_village_collection/Modular Village/Dirt_Gathered_Corner.obj using Guid(25eb3d9798d048b46befe387c48fe1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '991b3833f43bbf130eeb47b7e4e55612') in 0.100570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.444789 seconds.
+  path: Assets/Imports/modular_village_collection/Modular Village/Stone_to_Stucco_Doorway_Wide_Tall_2.obj
+  artifactKey: Guid(3ccdbc648fcc9a04585940c8c5254db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/modular_village_collection/Modular Village/Stone_to_Stucco_Doorway_Wide_Tall_2.obj using Guid(3ccdbc648fcc9a04585940c8c5254db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda15712585ae4ff4a4bcced7e28f956') in 0.213567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Imports/modular_village_collection/Modular Village/Cobblestone_Dirt_Transition_2.obj
+  artifactKey: Guid(0819652d1f516e84cb13f7779896a980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/modular_village_collection/Modular Village/Cobblestone_Dirt_Transition_2.obj using Guid(0819652d1f516e84cb13f7779896a980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8be87affaed32377e84be380505067b') in 0.109338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Imports/modular_village_collection/Modular Village/Cobblestone_Dirt_Transition_3.obj
+  artifactKey: Guid(c3ad441c71658c546a6ccc114eee4910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/modular_village_collection/Modular Village/Cobblestone_Dirt_Transition_3.obj using Guid(c3ad441c71658c546a6ccc114eee4910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10557cb45567e1fec2f80fb1f92971bd') in 0.123216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Imports/modular_village_collection/Modular Village/Stone_Pillar_Base.obj
+  artifactKey: Guid(534cea4020211604f82249e084f27682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/modular_village_collection/Modular Village/Stone_Pillar_Base.obj using Guid(534cea4020211604f82249e084f27682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1231d44dba9849b37c0ff53a6aed951d') in 0.078469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Imports/modular_village_collection/Modular Village/Stone_Doorway_Wide_Tall_2.obj
+  artifactKey: Guid(597afe052a8241143a3db036e46b53b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/modular_village_collection/Modular Village/Stone_Doorway_Wide_Tall_2.obj using Guid(597afe052a8241143a3db036e46b53b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9116762da7424002b0a4c3119b5c35b3') in 0.160736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Imports/modular_village_collection/Modular Village/Cobblestone_Dirt_Transition_4.obj
+  artifactKey: Guid(3b61ee0e9f5c93046b46f421b0cef2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/modular_village_collection/Modular Village/Cobblestone_Dirt_Transition_4.obj using Guid(3b61ee0e9f5c93046b46f421b0cef2dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b26ae0a29b180efd7abaaa11d75fbe') in 0.122136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Imports/modular_village_collection/Modular Village/Cobblestone_Floor_1.obj
+  artifactKey: Guid(792d1880b369c67409ea9b104abf173f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/modular_village_collection/Modular Village/Cobblestone_Floor_1.obj using Guid(792d1880b369c67409ea9b104abf173f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372d38230524131ad7de95e2e2212427') in 0.121313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Imports/modular_village_collection/Modular Village/Prop_Well_1.obj
+  artifactKey: Guid(5d305fa459a74a44098aa1921ddef909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/modular_village_collection/Modular Village/Prop_Well_1.obj using Guid(5d305fa459a74a44098aa1921ddef909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89d3dcb8b37e52f053044cd3b5cd2a38') in 0.320335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Imports/modular_village_collection/Modular Village/Stone_Sewer_Grate_1.obj
+  artifactKey: Guid(55a8225fb5bf31b4a8cdebf0fcfd5b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/modular_village_collection/Modular Village/Stone_Sewer_Grate_1.obj using Guid(55a8225fb5bf31b4a8cdebf0fcfd5b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13b614e579a9837b059ca5add1f0810') in 0.174603 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Imports/modular_village_collection/Modular Village/Cobblestone_Dirt_Transition_1.obj
+  artifactKey: Guid(73d3fe5bc0a36b54c98a9b0a4f4f8611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/modular_village_collection/Modular Village/Cobblestone_Dirt_Transition_1.obj using Guid(73d3fe5bc0a36b54c98a9b0a4f4f8611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4fb3c860d15909f841f9e819dbb97c') in 0.125310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Imports/modular_village_collection/Modular Village/Prop_Well_Cobblestone.obj
+  artifactKey: Guid(ca5589cd935e5984cbe28ef7da3c603a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/modular_village_collection/Modular Village/Prop_Well_Cobblestone.obj using Guid(ca5589cd935e5984cbe28ef7da3c603a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030fd8ac80fc8394702606e0b2477c46') in 0.125774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Imports/modular_village_collection/Modular Village/Stone_Doorway_Wide_Tall_1.obj
+  artifactKey: Guid(fec28a5155ceeee49823012ae64f79fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/modular_village_collection/Modular Village/Stone_Doorway_Wide_Tall_1.obj using Guid(fec28a5155ceeee49823012ae64f79fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67080528320a4661f539d3165bc795c') in 0.187153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Imports/modular_village_collection/Modular Village/Stone_Pillar.obj
+  artifactKey: Guid(453c4baac6050394db8f4227fde1cd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/modular_village_collection/Modular Village/Stone_Pillar.obj using Guid(453c4baac6050394db8f4227fde1cd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd657f9731f828958614dbc3aeafb76c8') in 0.118854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Imports/modular_village_collection/Modular Village/Stone_Sewer_Grate_2.obj
+  artifactKey: Guid(b71b277ff977b1b4e87e124cb375e2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/modular_village_collection/Modular Village/Stone_Sewer_Grate_2.obj using Guid(b71b277ff977b1b4e87e124cb375e2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c8caa58389719a9e8f8f60ffeef2c3') in 0.235366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002061 seconds.
+  path: Assets/Imports/modular_village_collection/Modular Village/Stone_Floor_1.obj
+  artifactKey: Guid(ff1b10fc39cb9164983a40cdc55fee3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/modular_village_collection/Modular Village/Stone_Floor_1.obj using Guid(ff1b10fc39cb9164983a40cdc55fee3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba1ab6806a73be57249d9daf05f99c5') in 0.106824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Imports/modular_village_collection/Modular Village/Stone_Floor_2.obj
+  artifactKey: Guid(07c7c76af21fbbe4587ff675df5a4c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/modular_village_collection/Modular Village/Stone_Floor_2.obj using Guid(07c7c76af21fbbe4587ff675df5a4c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5286f4e2d1e9e235755d6c43a5bc6b26') in 0.156090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Imports/modular_village_collection/Modular Village/Stone_Arch_Outer.obj
+  artifactKey: Guid(eeae75bda7636944589ff210285ec496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/modular_village_collection/Modular Village/Stone_Arch_Outer.obj using Guid(eeae75bda7636944589ff210285ec496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423c99e3be4f0cdd4f04033a24c218f8') in 0.366740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Imports/modular_village_collection/Modular Village/Stone_to_Stucco_Doorway_Wide_Tall_1.obj
+  artifactKey: Guid(a248057faca8ee2478a18506fecc97fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/modular_village_collection/Modular Village/Stone_to_Stucco_Doorway_Wide_Tall_1.obj using Guid(a248057faca8ee2478a18506fecc97fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9181c7b8dbdd7453b1029578b2095159') in 0.463824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 134.804398 seconds.
+  path: Assets/Imports/modular_village_collection/Modular Village/Stone_Steps.obj
+  artifactKey: Guid(efe272b036b09da49b562bca17e524e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/modular_village_collection/Modular Village/Stone_Steps.obj using Guid(efe272b036b09da49b562bca17e524e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693287451c1248e04e03a10d6d354a99') in 0.144350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Imports/modular_village_collection/Modular Village/Stone_Doorway_Narrow_Tall_2.obj
+  artifactKey: Guid(34dc06c1ba2987649a67250548b6f9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/modular_village_collection/Modular Village/Stone_Doorway_Narrow_Tall_2.obj using Guid(34dc06c1ba2987649a67250548b6f9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aaf714ac3cca9ffd1cc9fa24653786d') in 0.103370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Imports/modular_village_collection/Modular Village/Stone_Wall_2.obj
+  artifactKey: Guid(f9e8dbeae8fe0b84c99ae2ba7aeb810d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/modular_village_collection/Modular Village/Stone_Wall_2.obj using Guid(f9e8dbeae8fe0b84c99ae2ba7aeb810d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '895a92184823b4a508a638911934082f') in 0.127485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Imports/modular_village_collection/Modular Village/Stone_Doorway_Narrow_Tall_1.obj
+  artifactKey: Guid(6873522267284ee4cab32412ee4f00aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/modular_village_collection/Modular Village/Stone_Doorway_Narrow_Tall_1.obj using Guid(6873522267284ee4cab32412ee4f00aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0475e5332c99174eeeb2ee8fdbff7e5d') in 0.134142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Imports/modular_village_collection/Modular Village/Stone_Steps_Side_1.obj
+  artifactKey: Guid(e818205b01628a1409121117d78d233f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/modular_village_collection/Modular Village/Stone_Steps_Side_1.obj using Guid(e818205b01628a1409121117d78d233f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315f82ffe245b48a35272b4df9b4e1f7') in 0.103740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Imports/modular_village_collection/Modular Village/Stone_Steps_Side_2.obj
+  artifactKey: Guid(c78faaf45e77e4047943ddf215663fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/modular_village_collection/Modular Village/Stone_Steps_Side_2.obj using Guid(c78faaf45e77e4047943ddf215663fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d93184bce474f941c9ce6edee65755e') in 0.082266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Imports/modular_village_collection/Modular Village/Stone_Wall_1.obj
+  artifactKey: Guid(bc6a45c67b61b1f42b6299bfd51728c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/modular_village_collection/Modular Village/Stone_Wall_1.obj using Guid(bc6a45c67b61b1f42b6299bfd51728c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46cc5f5ce71b5eea6e97e838a7794bbc') in 0.102210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Imports/modular_village_collection/Modular Village/Stone_Wall_5.obj
+  artifactKey: Guid(e3092c30082dc1b4eb7800bc3f84af29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/modular_village_collection/Modular Village/Stone_Wall_5.obj using Guid(e3092c30082dc1b4eb7800bc3f84af29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6535415f0652a5d00a555f30078231e3') in 0.108855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Imports/modular_village_collection/Modular Village/Stone_Wall_4.obj
+  artifactKey: Guid(4447229a79b99e544bdb69d1e9647613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/modular_village_collection/Modular Village/Stone_Wall_4.obj using Guid(4447229a79b99e544bdb69d1e9647613) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7562705a1070edfe24939732a90e62e8') in 0.097906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Imports/modular_village_collection/Modular Village/Stone_Wall_3.obj
+  artifactKey: Guid(0dcf4e535dc0fd143b6f7262f223e226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/modular_village_collection/Modular Village/Stone_Wall_3.obj using Guid(0dcf4e535dc0fd143b6f7262f223e226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6169bb0e85ddaf63ab4652db6352cf57') in 0.119347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.416117 seconds.
+  path: Assets/Imports/Door Double/Door_Double.fbx
+  artifactKey: Guid(7a14cc972eda4fe49b5dab51cd6b6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Door Double/Door_Double.fbx using Guid(7a14cc972eda4fe49b5dab51cd6b6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbc018b3ca7e1e22d53634c618048a1') in 0.140171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 263.391452 seconds.
+  path: Assets/Imports/Door Double/DoorWorld2.prefab
+  artifactKey: Guid(d9a3a6c0c4939de429bd34bcfe55765e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Door Double/DoorWorld2.prefab using Guid(d9a3a6c0c4939de429bd34bcfe55765e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50986669dee5572f93a93075e24c5845') in 0.041067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.261944 seconds.
+  path: Assets/Imports/Door Double/DoorWorld2.prefab
+  artifactKey: Guid(d9a3a6c0c4939de429bd34bcfe55765e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Door Double/DoorWorld2.prefab using Guid(d9a3a6c0c4939de429bd34bcfe55765e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4094b725ec512ee9573bfde68fecf079') in 0.048735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.208011 seconds.
+  path: Assets/Imports/Door Double/DoorWorld2.prefab
+  artifactKey: Guid(d9a3a6c0c4939de429bd34bcfe55765e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Door Double/DoorWorld2.prefab using Guid(d9a3a6c0c4939de429bd34bcfe55765e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd766770c127903ee8999ad56229fb2e5') in 0.062914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.329163 seconds.
+  path: Assets/Imports/Door Double/DoorWorld2.prefab
+  artifactKey: Guid(d9a3a6c0c4939de429bd34bcfe55765e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Door Double/DoorWorld2.prefab using Guid(d9a3a6c0c4939de429bd34bcfe55765e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180c8c89b32aa6edcea19cf67795ca36') in 0.021821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.267126 seconds.
+  path: Assets/Imports/Door Double/DoorWorld2.prefab
+  artifactKey: Guid(d9a3a6c0c4939de429bd34bcfe55765e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Door Double/DoorWorld2.prefab using Guid(d9a3a6c0c4939de429bd34bcfe55765e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dbf45d7a25289cd0ea591d0e184cb23') in 0.067830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.939512 seconds.
+  path: Assets/Imports/Door Double/DoorWorld2.prefab
+  artifactKey: Guid(d9a3a6c0c4939de429bd34bcfe55765e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Door Double/DoorWorld2.prefab using Guid(d9a3a6c0c4939de429bd34bcfe55765e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c20f03d590fadda56e97b07824d551') in 0.056393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 897.497425 seconds.
+  path: Assets/Imports/Door Double/ExitWorld2.prefab
+  artifactKey: Guid(8ca17a71cb827cf48be588ceca73f6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Door Double/ExitWorld2.prefab using Guid(8ca17a71cb827cf48be588ceca73f6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '719ed830de935e12bc74fe6c213305aa') in 0.023781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.296575 seconds.
+  path: Assets/Imports/Door Double/ExitWorld2.prefab
+  artifactKey: Guid(8ca17a71cb827cf48be588ceca73f6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Door Double/ExitWorld2.prefab using Guid(8ca17a71cb827cf48be588ceca73f6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a17a1895086c074dda708034bf2c872') in 0.059974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.329052 seconds.
+  path: Assets/Imports/Door Double/ExitWorld2.prefab
+  artifactKey: Guid(8ca17a71cb827cf48be588ceca73f6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imports/Door Double/ExitWorld2.prefab using Guid(8ca17a71cb827cf48be588ceca73f6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980a2c3f09299374d5e9a71a8489b740') in 0.060764 seconds 
