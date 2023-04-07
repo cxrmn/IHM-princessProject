@@ -1,0 +1,42 @@
+# Unity generated
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]nityGenerated/
+/[Uu]nityPackageManager/
+/[Uu]nityCrashHandler64.exe
+/[Uu]nityPlayer.dll
+/[Uu]nityCrashHandler32.exe
+/[Uu]nityEngine.dll
+/[Uu]nityEditor.dll
+/[Uu]nityEngine.UI.dll
+/[Uu]nityEngine.Networking.dll
+/[Uu]nityEngine.AudioModule.dll
+/[Uu]nityEngine.InputLegacyModule.dll
+/[Uu]nityEngine.PhysicsModule.dll
+/[Uu]nityEngine.UIElementsModule.dll
+/[Uu]nityEngine.TextCoreModule.dll
+/[Uu]nityEngine.CoreModule.dll
+/[Uu]nityEngine.AssetBundleModule.dll
+/[Uu]nityEngine.AnimationModule.dll
+/[Uu]nityEngine.ImageConversionModule.dll
+/[Uu]nityEngine.TerrainModule.dll
+/[Uu]nityEngine.InputModule.dll
+/[Uu]nityEngine.ParticleSystemModule.dll
+/[Uu]nityEngine.VFXModule.dll
+
+# Visual Studio / MonoDevelop generated
+/*.userprefs
+/*.csproj
+/*.pidb
+/*.sln
+/*.suo
+/*.sln.DotSettings.user
+/*.sln.DotSettings
+
+# OS generated
+.DS_Store
+Thumbs.db
