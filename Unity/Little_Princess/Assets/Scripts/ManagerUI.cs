@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using TMPro;
 
 public class ManagerUI : MonoBehaviour
 {
@@ -13,6 +13,8 @@ public class ManagerUI : MonoBehaviour
     public float fadeSpeed;
     public bool fadeToBlack, fadeFromBlack;
 
+    public TextMeshProUGUI Keytext;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +24,9 @@ public class ManagerUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+
+        // fadeblack stuff
         if (fadeToBlack)
         {
             blackscreen.color = new Color(blackscreen.color.r, blackscreen.color.g, blackscreen.color.b, Mathf.MoveTowards(blackscreen.color.a, 1f, fadeSpeed * Time.deltaTime));
@@ -42,4 +47,7 @@ public class ManagerUI : MonoBehaviour
             }
         }
     }
+
+
+
 }

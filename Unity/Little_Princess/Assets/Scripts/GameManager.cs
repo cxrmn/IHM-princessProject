@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
     
     private Vector3 respawnPosition; // respaw position
 
+    public int currentKeys ;
+
     private void Awake() // Creamos una instancia del GameManager
     {
         instance = this;
@@ -20,11 +22,16 @@ public class GameManager : MonoBehaviour
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
         respawnPosition = PlayerController.instance.transform.position;
+       
+        
+       
+        // ManagerUI.instance.Keytext.text = "hello" ;
+        // AddKey(0); I cannto call here cause its later call awake, awake problem
     }
 
     void Update()
     {
-        
+        //AddKey(1);
     }
 
     public void Respawn()
@@ -56,4 +63,13 @@ public class GameManager : MonoBehaviour
         Debug.Log("Spawn set");
     }
 
+    public void AddKey(int keytoadd)
+    {
+
+        Debug.Log("Coin add: " + keytoadd);
+        currentKeys += keytoadd;
+
+        ManagerUI.instance.Keytext.text = "" + currentKeys;
+
+    }
 }
