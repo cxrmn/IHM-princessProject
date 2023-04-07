@@ -783,6 +783,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: StadiumSits3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 54160b964001472439abbc0df99316b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 54160b964001472439abbc0df99316b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54160b964001472439abbc0df99316b6, type: 3}
 --- !u!1 &1226614057
@@ -1161,11 +1169,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4145906788191891144, guid: 5a35a988ee3a9704ab631a9f77e4414d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.00000007298999
+      value: 0.000000007859832
       objectReference: {fileID: 0}
     - target: {fileID: 4145906788191891144, guid: 5a35a988ee3a9704ab631a9f77e4414d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000014624665
+      value: 0.0000000076242825
       objectReference: {fileID: 0}
     - target: {fileID: 4145906788375948526, guid: 5a35a988ee3a9704ab631a9f77e4414d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1201,11 +1209,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4145906788480534648, guid: 5a35a988ee3a9704ab631a9f77e4414d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000033238233
+      value: 0.000000033238233
       objectReference: {fileID: 0}
     - target: {fileID: 4145906788480534648, guid: 5a35a988ee3a9704ab631a9f77e4414d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.00000000700717
+      value: -0.00000000700717
       objectReference: {fileID: 0}
     - target: {fileID: 4145906788480534649, guid: 5a35a988ee3a9704ab631a9f77e4414d, type: 3}
       propertyPath: field of view
@@ -1233,11 +1241,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4145906789313836487, guid: 5a35a988ee3a9704ab631a9f77e4414d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.00000007190422
+      value: 0.0000000071895276
       objectReference: {fileID: 0}
     - target: {fileID: 4145906789313836487, guid: 5a35a988ee3a9704ab631a9f77e4414d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000015865135
+      value: 0.00000000756482
       objectReference: {fileID: 0}
     - target: {fileID: 4145906789704060885, guid: 5a35a988ee3a9704ab631a9f77e4414d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1261,11 +1269,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4145906789704060885, guid: 5a35a988ee3a9704ab631a9f77e4414d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.00000003489715
+      value: 0.000000004574464
       objectReference: {fileID: 0}
     - target: {fileID: 4145906789704060885, guid: 5a35a988ee3a9704ab631a9f77e4414d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000010715823
+      value: 0.000000007976283
       objectReference: {fileID: 0}
     - target: {fileID: 4897506672324002672, guid: 5a35a988ee3a9704ab631a9f77e4414d, type: 3}
       propertyPath: m_RootOrder
@@ -1713,6 +1721,14 @@ PrefabInstance:
     - target: {fileID: 4235928543234636419, guid: 74c1406b266e2df419099c96c0463bb6, type: 3}
       propertyPath: m_Name
       value: button
+      objectReference: {fileID: 0}
+    - target: {fileID: 4235928543234636419, guid: 74c1406b266e2df419099c96c0463bb6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 5587600528346791396, guid: 74c1406b266e2df419099c96c0463bb6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74c1406b266e2df419099c96c0463bb6, type: 3}
