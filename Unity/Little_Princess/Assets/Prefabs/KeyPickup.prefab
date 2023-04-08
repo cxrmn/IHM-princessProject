@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 9109960650936065958}
   - component: {fileID: 9109960650936065959}
   m_Layer: 0
-  m_Name: CoinPickup
+  m_Name: KeyPickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

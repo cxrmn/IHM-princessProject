@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        Debug.Log("hello");
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
         respawnPosition = PlayerController.instance.transform.position;
