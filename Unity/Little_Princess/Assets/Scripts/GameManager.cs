@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour
 
     public string levelToLoad;
 
+    private bool isCursorDisabled = false;
+
     private void Awake() // Creamos una instancia del GameManager
     {
         instance = this;
@@ -23,21 +25,39 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("hello");
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
+
+        if (SceneManager.GetActiveScene().buildIndex != 0)
+        {
+            DisableCursor();
+        }
+       
         respawnPosition = PlayerController.instance.transform.position;
-       
-        
-       
+
+
         // ManagerUI.instance.Keytext.text = "hello" ;
         // AddKey(0); I cannto call here cause its later call awake, awake problem
     }
 
     void Update()
     {
-        //AddKey(1);
+        
     }
+
+    void DisableCursor()
+    {
+        isCursorDisabled = true;
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+
+    }
+
+    void EnableCursor()
+    {
+        isCursorDisabled = false;
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+    }
+
 
     public void Respawn()
     {
@@ -71,8 +91,9 @@ public class GameManager : MonoBehaviour
     public void AddKey(int keytoadd)
     {
 
-        Debug.Log("Coin add: " + keytoadd);
+       // Debug.Log("Coin add: " + keytoadd + currentKeys);
         currentKeys += keytoadd;
+        Debug.Log("Coin add: " + currentKeys);
 
         ManagerUI.instance.Keytext.text = "" + currentKeys;
 
@@ -82,7 +103,14 @@ public class GameManager : MonoBehaviour
     public IEnumerator LevelEndWaiter()
     {
         yield return new WaitForSeconds(1f);
+        EnableCursor();
+
         // ManagerUI.instance.LevelEnd();
         SceneManager.LoadScene(0);
     }
+
+
+   
+
+
 }

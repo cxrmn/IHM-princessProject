@@ -65,7 +65,7 @@ public class PlayerController : MonoBehaviour
             moveDirection.y = 0f;
             if (Input.GetButtonDown("Jump"))
             {
-                Debug.Log("Jump !!!!");
+                //Debug.Log("Jump !!!!");
                 moveDirection.y = jumpForce;
             }
 

@@ -24,7 +24,7 @@ public class KeyPickup : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            Debug.Log("Hola");
+            
             GameManager.instance.AddKey(value);
             Destroy(gameObject);
             Instantiate(keyEffect, transform.position, transform.rotation);

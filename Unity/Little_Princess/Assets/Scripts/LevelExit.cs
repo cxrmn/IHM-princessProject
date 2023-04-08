@@ -26,11 +26,14 @@ public class LevelExit : MonoBehaviour
         if (other.tag == "Player" && gameManager.currentKeys == 3)
         {
             // End Game
-            Debug.Log("END");
+            Debug.Log("END LEVEL");
 
             StartCoroutine(GameManager.instance.LevelEndWaiter());
 
 
+        } else if (other.tag == "Player" && gameManager.currentKeys < 3)
+        {
+            Debug.Log("You need more keys");
         }
     }
 }
