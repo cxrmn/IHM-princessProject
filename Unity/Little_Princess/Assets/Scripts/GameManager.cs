@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+using UnityEngine.SceneManagement;
+
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
@@ -9,6 +11,8 @@ public class GameManager : MonoBehaviour
     private Vector3 respawnPosition; // respaw position
 
     public int currentKeys ;
+
+    public string levelToLoad;
 
     private void Awake() // Creamos una instancia del GameManager
     {
@@ -72,5 +76,13 @@ public class GameManager : MonoBehaviour
 
         ManagerUI.instance.Keytext.text = "" + currentKeys;
 
+    }
+
+
+    public IEnumerator LevelEndWaiter()
+    {
+        yield return new WaitForSeconds(1f);
+        // ManagerUI.instance.LevelEnd();
+        SceneManager.LoadScene(0);
     }
 }
