@@ -1,8 +1,11 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class SceneLoader : MonoBehaviour
+
+public class MainMenu : MonoBehaviour
 {
-    
+   
     public void Test()
     {
         SceneManager.LoadScene(1);
@@ -15,13 +18,11 @@ public class SceneLoader : MonoBehaviour
 
     public void World2()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
     }
 
     public void World3()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
     }
-
-    
 }

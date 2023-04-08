@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
-
+using UnityEngine.SceneManagement;
 
 public class LapManager : MonoBehaviour
 {
@@ -19,7 +19,9 @@ public class LapManager : MonoBehaviour
     private IEnumerator FinishDelay()
     {
         yield return new WaitForSeconds(7); // check this in class
-        onPlayerFinished.Invoke();
+        SceneManager.LoadScene(0);
+
+        //onPlayerFinished.Invoke();
     }
 
 

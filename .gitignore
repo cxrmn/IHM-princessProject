@@ -41,9 +41,10 @@
 Unity/Little_Princess/Library/Artifacts/
 
 Unity/Little_Princess/Library/ArtifactDB
-Unity/Little_Princess/Library/Search/transactions.db
-Unity/Little_Princess/Library/SourceAssetDB
-Unity/Little_Princess/Library/StateCache/PrefabStageHierarchy/08/0872fd6e531a6faade708d2d09d5e209.json
+Unity/Little_Princess/Library/Search/
+Unity/Little_Princess/Library/SourceAssetDB/
+Unity/Little_Princess/Library/ShaderCache/
+Unity/Little_Princess/Library/StateCache/
 Unity/Little_Princess/Logs/AssetImportWorker0.log
 Unity/Little_Princess/Logs/AssetImportWorker1-prev.log
 Unity/Little_Princess/Logs/AssetImportWorker2-prev.log
