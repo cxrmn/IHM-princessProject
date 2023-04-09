@@ -15,10 +15,21 @@ public class ManagerUI : MonoBehaviour
 
     public TextMeshProUGUI Keytext;
 
+    // for input console
+    public TMP_Text consoleText;
+
+    public TextMeshProUGUI Chickentext;
+
+    public TextMeshProUGUI Appletext;
+
     // Start is called before the first frame update
     void Start()
     {
         instance = this;
+
+        // console struff
+        consoleText = GameObject.Find("TextConsole").GetComponent<TMP_Text>();
+        Application.logMessageReceived += LogMessageReceived;
     }
 
     // Update is called once per frame
@@ -46,6 +57,29 @@ public class ManagerUI : MonoBehaviour
                 fadeFromBlack = false;
             }
         }
+    }
+
+    // override
+    void LogMessageReceived(string message, string stackTrace, LogType type)
+    {
+        string consoleString = "";
+
+        switch (type)
+        {
+            case LogType.Error:
+            case LogType.Assert:
+            case LogType.Exception:
+                consoleString += "<color=red>" + message + "</color>";
+                break;
+            case LogType.Warning:
+                consoleString += "<color=yellow>" + message + "</color>";
+                break;
+            default:
+                consoleString += message;
+                break;
+        }
+
+        consoleText.text = consoleString + "\n";
     }
 
 
