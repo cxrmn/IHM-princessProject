@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7134577212492427947}
   - component: {fileID: 7134577212490002511}
   - component: {fileID: 7134577212490002508}
+  - component: {fileID: 5691355882379647832}
   m_Layer: 0
   m_Name: Message
   m_TagString: Untagged
@@ -112,3 +113,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   message: Carmen Putera
+--- !u!114 &5691355882379647832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7134577212490493037}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 711b037ebcc986d4aa279e54e07b44d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  npc: {fileID: 0}
+  animator: {fileID: 0}

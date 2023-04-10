@@ -3,17 +3,7 @@ guid: c49d9690e5d4d4b4f956098496116edc
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Plaster
-    second: {fileID: -978160288850237216, guid: 5b03df3b8895117488dcb5297d57c042, type: 3}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: RoofTiles_Red
-    second: {fileID: 2100000, guid: 5554d22094078bf4780b46daedb3a141, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

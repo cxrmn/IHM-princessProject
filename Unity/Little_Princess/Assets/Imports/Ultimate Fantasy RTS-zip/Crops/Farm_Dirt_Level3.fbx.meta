@@ -3,27 +3,7 @@ guid: 782f2672136d5e4458ac0ff5e16043ba
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Green
-    second: {fileID: 1411009148027576344, guid: 1c3c7be2ff1cd5944b3648be13a81b9d, type: 3}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Lettuce
-    second: {fileID: 5321734653254607054, guid: 1c3c7be2ff1cd5944b3648be13a81b9d, type: 3}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Orange
-    second: {fileID: 2100000, guid: df284b6b6c63be14a83436cc5ca6ed1a, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Red
-    second: {fileID: 2100000, guid: 5554d22094078bf4780b46daedb3a141, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

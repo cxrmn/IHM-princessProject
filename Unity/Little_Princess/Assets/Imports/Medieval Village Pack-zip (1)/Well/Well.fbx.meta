@@ -3,17 +3,7 @@ guid: bd0a3fa5d1be0e145b739c2f6f2cf041
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: RoofTiles_Red
-    second: {fileID: 2100000, guid: 7aeaef2289d1f57408bfc8e4dfbc52e8, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Wood
-    second: {fileID: -1444460858095362738, guid: 8454a4951e0be1a499ed2b765ccd567a, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

@@ -16,6 +16,10 @@ public class GameManager : MonoBehaviour
 
     private bool isCursorDisabled = false;
 
+    public int currentChicken;
+
+    public int currentApples;
+
     private void Awake() // Creamos una instancia del GameManager
     {
         instance = this;
@@ -93,12 +97,30 @@ public class GameManager : MonoBehaviour
 
        // Debug.Log("Coin add: " + keytoadd + currentKeys);
         currentKeys += keytoadd;
-        Debug.Log("Coin add: " + currentKeys);
+        Debug.Log("Key add: " + currentKeys);
 
         ManagerUI.instance.Keytext.text = "" + currentKeys;
 
     }
 
+
+    
+    public void AddChicken(int chickenToAdd)
+    {
+        currentChicken += chickenToAdd;
+        Debug.Log("Chicken add: " + currentChicken);
+
+        ManagerUI.instance.Chickentext.text = "" + currentChicken;
+    }
+
+
+    public void AddApple(int applesToAdd)
+    {
+        currentApples += applesToAdd;
+        Debug.Log("Apples add: " + currentApples);
+        ManagerUI.instance.Appletext.text = "" + currentApples;
+    }
+    
 
     public IEnumerator LevelEndWaiter()
     {
