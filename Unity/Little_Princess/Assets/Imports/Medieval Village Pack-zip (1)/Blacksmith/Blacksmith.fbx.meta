@@ -3,7 +3,22 @@ guid: af256aa62cc11ac43a1ed4650a202237
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plaster
+    second: {fileID: -978160288850237216, guid: 91ec93081f0d30645b399334bcdc5e1d, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RoofTiles_Red
+    second: {fileID: 2100000, guid: 7aeaef2289d1f57408bfc8e4dfbc52e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Windows
+    second: {fileID: 8992934318045909824, guid: f7b99c79a5152d14c8b246d1e1787209, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

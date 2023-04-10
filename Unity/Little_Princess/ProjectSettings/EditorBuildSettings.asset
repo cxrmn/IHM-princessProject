@@ -5,10 +5,22 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/Scenes/World2/MainMenu.unity
-    guid: 677de5629cc998d44a03fb7de1a8fde4
+    path: Assets/Scenes/MainMenu.unity
+    guid: 295688b6e77a97742af90c13e17f4ea6
   - enabled: 1
-    path: Assets/Scenes/World2/Game.unity
+    path: Assets/Scenes/TestWorld/Test.unity
+    guid: bb091c1539c4076469125c448f42d744
+  - enabled: 1
+    path: Assets/Scenes/World1/Museum.unity
+    guid: 1413d9bc9ecbfa04887e75fe5ff299ef
+  - enabled: 1
+    path: Assets/Scenes/World2/Cars.unity
     guid: ead8c994ebe74ab47ad6d5508d7a064e
+  - enabled: 1
+    path: Assets/Scenes/World3/San Juan de Ruiz.unity
+    guid: 8eac936360286c64b8a11ac15ef5f942
   m_configObjects: {}
