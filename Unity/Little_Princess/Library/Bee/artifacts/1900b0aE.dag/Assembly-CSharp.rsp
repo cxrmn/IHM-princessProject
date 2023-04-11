@@ -357,6 +357,7 @@
 "Assets/ApplePickup.cs"
 "Assets/ChickerPickup.cs"
 "Assets/MessageOutput.cs"
+"Assets/NPCController.cs"
 "Assets/Scripts/animationNPC.cs"
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/Cars/GameManagerCars.cs"
