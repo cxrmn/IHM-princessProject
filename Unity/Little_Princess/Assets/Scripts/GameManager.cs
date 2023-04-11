@@ -111,6 +111,10 @@ public class GameManager : MonoBehaviour
         Debug.Log("Chicken add: " + currentChicken);
 
         ManagerUI.instance.Chickentext.text = "" + currentChicken;
+        if(currentChicken == 3)
+        {
+            AddKey(1);
+        }
     }
 
 
@@ -119,6 +123,10 @@ public class GameManager : MonoBehaviour
         currentApples += applesToAdd;
         Debug.Log("Apples add: " + currentApples);
         ManagerUI.instance.Appletext.text = "" + currentApples;
+        if(currentApples == 3)
+        {
+            AddKey(1);
+        }
     }
     
 
