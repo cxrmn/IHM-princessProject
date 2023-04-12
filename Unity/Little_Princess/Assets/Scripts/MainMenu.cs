@@ -18,7 +18,7 @@ public class MainMenu : MonoBehaviour
 
     public void World2()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(5);
     }
 
     public void World3()

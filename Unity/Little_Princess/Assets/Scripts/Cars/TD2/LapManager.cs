@@ -10,6 +10,7 @@ public class LapManager : MonoBehaviour
     public List<Checkpoint> checkpoints;
     public int totalLaps = 3;
     public UIManager ui;
+    public GameManager gameManager;
 
     private List<PlayerRank> playerRanks = new List<PlayerRank>();
     private PlayerRank mainPlayerRank;
@@ -19,7 +20,8 @@ public class LapManager : MonoBehaviour
     private IEnumerator FinishDelay()
     {
         yield return new WaitForSeconds(7); // check this in class
-        SceneManager.LoadScene(0);
+       
+           SceneManager.LoadScene(0);
 
         //onPlayerFinished.Invoke();
     }

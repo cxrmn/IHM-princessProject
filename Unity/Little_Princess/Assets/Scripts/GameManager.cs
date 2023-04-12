@@ -47,7 +47,7 @@ public class GameManager : MonoBehaviour
         
     }
 
-    void DisableCursor()
+    public void DisableCursor()
     {
         isCursorDisabled = true;
         Cursor.visible = false;
@@ -55,7 +55,7 @@ public class GameManager : MonoBehaviour
 
     }
 
-    void EnableCursor()
+    public void EnableCursor()
     {
         isCursorDisabled = false;
         Cursor.visible = true;

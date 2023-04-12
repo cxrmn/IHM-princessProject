@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/World3/San Juan de Ruiz.unity
     guid: 8eac936360286c64b8a11ac15ef5f942
+  - enabled: 1
+    path: Assets/Scenes/World2/RaceCars.unity
+    guid: ebd5591c1cd043047864dedb0433c123
   m_configObjects: {}

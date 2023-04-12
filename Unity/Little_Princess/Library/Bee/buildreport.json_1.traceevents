@@ -1,0 +1,535 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1681304705073406, "dur": 9054751, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681304705083769, "dur": 41717, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681304705125490, "dur": 144595, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681304705270089, "dur": 2730205, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681304708000300, "dur": 6118271, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681304714118581, "dur": 9574, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681304714132930, "dur": 440, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1681304707406841, "dur": 523314, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681304707409809, "dur": 213950, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681304707880776, "dur": 16515, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681304707897299, "dur": 32829, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681304707899295, "dur": 28669, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681304707963140, "dur": 2915, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1681304707947242, "dur": 18882, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681304714135705, "dur": 1419, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1681304708112801, "dur":6984, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681304708119793, "dur":607, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1681304708120419, "dur":15, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1681304708120434, "dur":312, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1681304708120787, "dur":1339, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681304708122126, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681304713974793, "dur":738, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681304713975531, "dur":27, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681304713975558, "dur":6, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681304713975564, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681304713975576, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681304713975580, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681304713975592, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681304713975596, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681304713975605, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681304713975642, "dur":5, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681304713978350, "dur":21226, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1681304708121752, "dur":388, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304708122146, "dur":11816, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304708133981, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681304708133996, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304708136821, "dur":976, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681304708138193, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681304708138326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304708144074, "dur":30253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681304708174331, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1681304708174611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304708174889, "dur":20586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1681304708195587, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1681304708195787, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304708195801, "dur":727419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1681304708923371, "dur":114244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project.exe" }}
+,{ "pid":12345, "tid":1, "ts":1681304709037635, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304709037673, "dur":11079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project.exe" }}
+,{ "pid":12345, "tid":1, "ts":1681304709048862, "dur":232676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304709281544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304709281950, "dur":24538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304709306585, "dur":138277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304709444870, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304709444883, "dur":4668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304709449647, "dur":139263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304709588917, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304709588934, "dur":34293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304709623345, "dur":61468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304709684855, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304709684869, "dur":15991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304709700982, "dur":47706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304709748702, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304709748716, "dur":16002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304709764845, "dur":140581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304709905433, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304709905445, "dur":4390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304709909922, "dur":103850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304710013782, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304710013879, "dur":4323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304710018297, "dur":67813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304710086116, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304710086129, "dur":25397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304710111620, "dur":87286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304710198914, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304710198928, "dur":8956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304710207978, "dur":107755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304710315741, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304710315792, "dur":3260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304710319152, "dur":45230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304710364409, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304710364438, "dur":3510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304710368045, "dur":126300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304710494351, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304710494404, "dur":2262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304710496764, "dur":108487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304710605257, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304710605272, "dur":5554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304710610944, "dur":118203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304710729186, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304710729200, "dur":3224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304710732516, "dur":29450, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304710761973, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304710761986, "dur":2497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304710764580, "dur":26997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304710791584, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304710791597, "dur":1996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304710793680, "dur":42106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304710835793, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304710835827, "dur":26652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304710862563, "dur":206811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304711069405, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304711069425, "dur":7361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304711076869, "dur":75423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304711152300, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304711152314, "dur":3087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304711155494, "dur":69310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304711224810, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304711224824, "dur":5495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304711230409, "dur":50229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304711280645, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304711280721, "dur":14436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304711295296, "dur":195040, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304711490344, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304711490358, "dur":3478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304711493926, "dur":365985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304711859918, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304711859944, "dur":31124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304711891167, "dur":147922, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304712039096, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304712039110, "dur":2110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304712041301, "dur":311588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304712352899, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304712352917, "dur":6723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304712359724, "dur":192866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304712552598, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304712552646, "dur":126074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304712678804, "dur":95153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304712773963, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304712773977, "dur":5865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304712779930, "dur":241941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304713021878, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304713021892, "dur":10878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304713032864, "dur":84481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304713117351, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304713117364, "dur":15070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304713132516, "dur":323959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304713456483, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304713456499, "dur":7081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681304713463667, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1681304713463759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304713463877, "dur":3296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1681304713467398, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":1, "ts":1681304713467511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304713467545, "dur":9397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":1, "ts":1681304713477044, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1681304713477241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304713477253, "dur":2431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1681304713479822, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":1, "ts":1681304713479934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304713479946, "dur":2402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":1, "ts":1681304713482439, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":1, "ts":1681304713482636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304713482649, "dur":28283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":1, "ts":1681304713511106, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1681304713511375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304713511386, "dur":30376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1681304713541976, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":1, "ts":1681304713542119, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304713542130, "dur":25000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":1, "ts":1681304713567512, "dur":449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":1, "ts":1681304713567968, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304713568037, "dur":29429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":1, "ts":1681304713597580, "dur":366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1681304713597952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304713597964, "dur":25459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":1, "ts":1681304713623641, "dur":462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1681304713624115, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304713624134, "dur":7206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":1, "ts":1681304713631436, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1681304713631534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304713631664, "dur":81632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1681304713713396, "dur":8779, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1681304713722182, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304713722218, "dur":2366, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1681304713724723, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1681304713724818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304713724829, "dur":48667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1681304713773580, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/level5.resS" }}
+,{ "pid":12345, "tid":1, "ts":1681304713773706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304713773717, "dur":21897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/level5.resS" }}
+,{ "pid":12345, "tid":1, "ts":1681304713795724, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/level5" }}
+,{ "pid":12345, "tid":1, "ts":1681304713795818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304713795832, "dur":12156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/level5" }}
+,{ "pid":12345, "tid":1, "ts":1681304713808080, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/level4.resS" }}
+,{ "pid":12345, "tid":1, "ts":1681304713808163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681304713808175, "dur":122341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/level4.resS" }}
+,{ "pid":12345, "tid":1, "ts":1681304713930603, "dur":44153, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304708121812, "dur":340, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304708122153, "dur":11818, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304708133982, "dur":39710, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1681304708173703, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304708174909, "dur":2736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1681304708177783, "dur":18580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1681304708196370, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304708196385, "dur":1712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1681304708198197, "dur":17784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1681304708215987, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304708216003, "dur":4003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1681304708220139, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1681304708220376, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304708220391, "dur":696886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1681304708917368, "dur":10358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1681304708927732, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304708927743, "dur":3431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1681304708931272, "dur":467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1681304708931745, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304708932385, "dur":146684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1681304709079306, "dur":203818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304709283131, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304709304301, "dur":4639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304709309031, "dur":137684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304709446734, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304709446747, "dur":1922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304709448768, "dur":44830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304709493605, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304709493618, "dur":7544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304709501262, "dur":56023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304709557292, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304709557510, "dur":8922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304709566773, "dur":57683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304709624463, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304709624579, "dur":27195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304709651867, "dur":37587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304709689460, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304709689474, "dur":30914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304709720480, "dur":51113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304709771601, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304709771615, "dur":3684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304709775404, "dur":62852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304709838263, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304709838277, "dur":6401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304709844797, "dur":53811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304709898615, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304709898628, "dur":4849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304709903690, "dur":97084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304710000783, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304710000804, "dur":13575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304710014476, "dur":380562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304710395045, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304710395060, "dur":2749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304710397916, "dur":78372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304710476295, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304710476308, "dur":2991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304710479395, "dur":49536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304710528937, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304710529021, "dur":2428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304710531542, "dur":63934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304710595481, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304710595495, "dur":5859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304710601466, "dur":50168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304710651641, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304710651656, "dur":2347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304710654164, "dur":79647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304710733817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304710733830, "dur":11224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304710745149, "dur":227415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304710972571, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304710972585, "dur":15073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304710987755, "dur":240513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304711228307, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304711228322, "dur":3844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304711232258, "dur":84142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304711316522, "dur":50, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304711316745, "dur":21885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304711338717, "dur":148558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304711487310, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304711487325, "dur":5416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304711492843, "dur":404036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304711896885, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304711896900, "dur":4865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304711901853, "dur":338700, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304712240560, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304712240574, "dur":3887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304712244554, "dur":170954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304712415515, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304712415530, "dur":5017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304712420668, "dur":411009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304712831688, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304712831712, "dur":6941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304712838767, "dur":233332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304713072106, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304713072154, "dur":11972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304713084233, "dur":486373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304713570613, "dur":200, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304713570853, "dur":21730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681304713592765, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1681304713592975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304713592987, "dur":14068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1681304713607177, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":2, "ts":1681304713607310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304713607321, "dur":30142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":2, "ts":1681304713637549, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1681304713637649, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304713637660, "dur":231340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1681304713869471, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/level3.resS" }}
+,{ "pid":12345, "tid":2, "ts":1681304713869616, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304713869632, "dur":22110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/level3.resS" }}
+,{ "pid":12345, "tid":2, "ts":1681304713891865, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/level3" }}
+,{ "pid":12345, "tid":2, "ts":1681304713891949, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304713891961, "dur":8983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/level3" }}
+,{ "pid":12345, "tid":2, "ts":1681304713901033, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1681304713901161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304713901172, "dur":13576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1681304713914874, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1681304713914997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304713915014, "dur":8084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1681304713923251, "dur":409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1681304713923665, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681304713923712, "dur":7124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1681304713930920, "dur":43835, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681304708121864, "dur":301, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681304708122166, "dur":11803, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681304708133982, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1681304708134300, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681304708149508, "dur":48428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1681304708198038, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1681304708198232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681304708199331, "dur":3935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1681304708203373, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1681304708203590, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681304708203722, "dur":3916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1681304708207745, "dur":26646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1681304708234414, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681304708234431, "dur":2584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1681304708237132, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1681304708237356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681304708238522, "dur":165499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1681304708404134, "dur":23599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1681304708427740, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681304708427757, "dur":2164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1681304708430016, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1681304708430353, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681304708430386, "dur":584132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1681304709014652, "dur":272646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304709287304, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681304709418698, "dur":2453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304709421238, "dur":93233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304709514478, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681304709514491, "dur":18764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304709533442, "dur":261718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304709795167, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681304709795181, "dur":3858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304709799136, "dur":194205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304709993486, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681304709993710, "dur":10932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304710005250, "dur":413022, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304710418283, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681304710418305, "dur":13543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304710431930, "dur":65764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304710497701, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681304710497713, "dur":4858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304710502678, "dur":35691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304710538380, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681304710538398, "dur":2582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304710541071, "dur":114205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304710655283, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681304710655296, "dur":28759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304710684135, "dur":46448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304710730590, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681304710730603, "dur":6282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304710736977, "dur":82302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304710819544, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681304710821786, "dur":30503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304710852379, "dur":33662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304710886048, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681304710886062, "dur":24539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304710910717, "dur":60854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304710971578, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681304710971631, "dur":11914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304710983633, "dur":26653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304711010293, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681304711010318, "dur":1791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304711012201, "dur":45019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304711057227, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681304711057241, "dur":9263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304711066601, "dur":87019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304711153627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681304711153640, "dur":4717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304711158444, "dur":255765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304711414217, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681304711414231, "dur":8813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304711423141, "dur":232953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304711656101, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681304711656114, "dur":178358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304711834555, "dur":515260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304712349822, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681304712349838, "dur":11201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304712361131, "dur":77607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304712438745, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681304712438759, "dur":9732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304712448616, "dur":615660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304713064283, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681304713064298, "dur":5023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304713069416, "dur":896341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304713965765, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681304713965784, "dur":8850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681304713974727, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1681304713974731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304708121923, "dur":254, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304708122177, "dur":11788, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304708133982, "dur":268690, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1681304708402682, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304708403201, "dur":1760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1681304708405062, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1681304708405284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304708405413, "dur":13885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1681304708419418, "dur":29065, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1681304708448490, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304708448506, "dur":1884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1681304708450497, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1681304708450711, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304708450726, "dur":20024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1681304708470848, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1681304708471022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304708471036, "dur":27641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1681304708498795, "dur":6361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304708505163, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304708506444, "dur":3050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304708509629, "dur":67350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304708576986, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304708577254, "dur":11532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304708588961, "dur":1446003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304710035014, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304710035027, "dur":47358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304710082474, "dur":71064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304710153545, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304710153558, "dur":12846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304710166544, "dur":240760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304710407311, "dur":19, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304710407389, "dur":21178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304710428657, "dur":55113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304710483777, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304710483791, "dur":9175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304710493056, "dur":39181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304710532244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304710532257, "dur":1909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304710534269, "dur":36559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304710570836, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304710570850, "dur":24175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304710595114, "dur":115792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304710710912, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304710710925, "dur":11600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304710722612, "dur":93624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304710816242, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304710816256, "dur":12252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304710828634, "dur":53016, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304710881660, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304710881706, "dur":10248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304710892072, "dur":51088, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304710943166, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304710943180, "dur":12604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304710955936, "dur":42876, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304710998819, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304710998833, "dur":12232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304711011152, "dur":40618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304711051777, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304711051791, "dur":2669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304711054621, "dur":46663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304711101291, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304711101304, "dur":16821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304711118222, "dur":38376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304711156605, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304711156619, "dur":11770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304711168479, "dur":138281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304711306767, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304711306780, "dur":7486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304711314345, "dur":176641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304711490992, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304711491004, "dur":4810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304711496251, "dur":148350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304711644607, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304711644647, "dur":24557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304711669297, "dur":223428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304711892731, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304711892748, "dur":2449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304711895283, "dur":252449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304712147739, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304712147754, "dur":4792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304712152630, "dur":163762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304712316398, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304712316412, "dur":5256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304712321923, "dur":95227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304712417157, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304712417171, "dur":4206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304712421461, "dur":446440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304712867908, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304712867922, "dur":5026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304712873203, "dur":233299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304713106508, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304713106522, "dur":2224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304713108837, "dur":462912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304713571754, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304713571864, "dur":46112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681304713618063, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1681304713618145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304713618156, "dur":22992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1681304713641236, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1681304713641319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304713641330, "dur":29734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1681304713671176, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1681304713671260, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304713671271, "dur":18717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1681304713690080, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1681304713690160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304713690171, "dur":23134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1681304713713401, "dur":29332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1681304713742743, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304713742775, "dur":14261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1681304713757139, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1681304713757234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304713757246, "dur":51050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1681304713808451, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1681304713808547, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304713808556, "dur":85424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1681304713894068, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1681304713894158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304713894168, "dur":14526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/level2" }}
+,{ "pid":12345, "tid":4, "ts":1681304713908781, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1681304713908888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304713908900, "dur":7951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1681304713916936, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1681304713917125, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681304713917137, "dur":7251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1681304713924471, "dur":50319, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681304714048470, "dur":4303, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1681304714137427, "dur": 2567, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681304714132215, "dur": 7840, "ph": "X", "name": "Write chrome-trace events", "args": {} },
