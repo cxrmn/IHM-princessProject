@@ -8,11 +8,11 @@ The little princess is a 3rd person game where the main character, a little prin
 
 ## Resources
 We use a couple of video tutorial to face some of the mecanics of the game:
-**Create a 3D platform game on Unity:** https://youtu.be/E8IpxqLPlUE
-**Score point Unity tutorial:** https://youtu.be/YUcvy9PHeXs
-**Character animations on Blender:** https://youtu.be/h4CyfdKJdLg
-**Character controller:** https://youtu.be/DV-CYMuhcxc
-**AI patrol:** https://youtu.be/-Iwsz4gdgyQ
+- **Create a 3D platform game on Unity:** https://youtu.be/E8IpxqLPlUE
+- **Score point Unity tutorial:** https://youtu.be/YUcvy9PHeXs
+- **Character animations on Blender:** https://youtu.be/h4CyfdKJdLg
+- **Character controller:** https://youtu.be/DV-CYMuhcxc
+- **AI patrol:** https://youtu.be/-Iwsz4gdgyQ
 
 We also took some free 3D models from this two websites:
 - https://kenney.nl/
