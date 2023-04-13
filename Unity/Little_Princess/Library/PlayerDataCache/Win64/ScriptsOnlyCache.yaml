@@ -69,10 +69,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -2483,4 +2481,5 @@ ScriptsOnlyBuild:
   - Assets/Scenes/World2/Cars.unity
   - Assets/Scenes/World3/San Juan de Ruiz.unity
   - Assets/Scenes/World2/RaceCars.unity
-  playerPath: C:/Users/carme/OneDrive/Documentos/GitHub/IHM-princessPoject/My project.exe
+  playerPath: C:/Users/carme/OneDrive/Documentos/Erasmus/3Software/IHM & Creation
+    de mondes virtuels/Game/My project.exe
